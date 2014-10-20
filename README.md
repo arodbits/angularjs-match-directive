@@ -11,7 +11,7 @@ A custom match directive to validate whether two fields are equal or not. Useful
 ```javascript
    var yourApp = angular.module('yourAppMainModule',['arMatch']);
 ```
-**Insert the **match** directive attribute into the element you want to match with, for our case it is: *confirmPassword* **
+**Insert the _match_ directive attribute into the element you want to match with, for our case it is: _confirmPassword_**
 
  > **match="password"** refers to the model propiety *password* declared before, on the password element and it's the element we want to match against.
 
