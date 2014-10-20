@@ -1,27 +1,25 @@
 /*Author: Anthony Rodriguez
 https://github.com/anthony2727
+www.capitalofcode.com
 Project: Match directive
 2014
 MTI LICENCE
 */
-
-// Creating yourMainModule module
-var app = angular.module('yourMainModule', []);
-// Adding it to your main module
-// var app = angular.module('yourMainModule');	
-
+'use strict'
+// Create arMatch module
+angular.module('arMatch', [])
 
 // Match directive
 /*
 Match directive will be using the $watch function to listen to any model mutation (changes to the model), 
-comparing the values of field "A" and the second field "B" (See example), if the values matches, 
+matching the values of field "A" and the second field, "B" (See example). If the values matches, 
 then the watchExpression will return true, passing the result to the listener function. Note that the listener
 will be called ONLY if the current value of watchExpression is not equal to the call of the privious watchExpression.
  
 In our example, match will be an attribute contained in the "B" element. 
 The value passed to match references to the model "A" deffined before.
 */
-app.directive('match', function(){
+.directive('match', function(){
 	return {
 		require : 'ngModel',
 		restrict : 'A', // This means: Attribute
@@ -43,7 +41,7 @@ app.directive('match', function(){
 			// Listener is called ONLY when the value of the current watchExpression and the previous call 
 			// to watchExpression are not equal.
 
-			var listener = function(itMatch){
+			var listener = function(itMatch, oldItMatch){
 				ctrl.$setValidity('match', itMatch);
 			};
 
