@@ -1,6 +1,6 @@
 #Angularjs-Match-Directive
 
->By: Anthony Rodriguez. Visit: [Capitalofcode.com](http://www.capitalofcode.com)
+>By: Anthony Rodriguez. 
 
 A custom match directive to validate whether two fields are equal or not. Useful for password matching, usernames, and more.
 
