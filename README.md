@@ -4,9 +4,19 @@
 
 A custom match directive to validate whether two fields are equal or not. Useful for password matching, usernames, and more.
 
+##INSTALLATION
+
+If you'd like to use bower, you can install armatch using:
+> bower install --save armatch
+
+Then, include the downloaded dependency in your main app file.
+```html
+	<script src="armatch.js"></script>
+```
+
 ##EXAMPLE
 
-**Add the arMatch module to your app. That way the *match* directive will be available throughout your application**
+**Add the arMatch module to your Main App Module. That way the *match* directive will be available throughout your application**
 
 ```javascript
    var yourApp = angular.module('yourAppMainModule',['arMatch']);
