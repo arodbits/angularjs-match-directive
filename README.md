@@ -3,6 +3,7 @@
 >By: Anthony Rodriguez. 
 
 A custom match directive to validate whether two fields are equal or not. Useful for password matching, usernames, and more.
+[DEMO](http://codepen.io/anthonyrod4/pen/mBoGH)
 
 ##INSTALLATION
 
@@ -37,4 +38,4 @@ Then, include the downloaded dependency in your main app file.
 	 Sorry but the passwords don't match!
 </div>
 ```
-
+Watch [DEMO on CODEPEN](http://codepen.io/anthonyrod4/pen/mBoGH)
