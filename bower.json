@@ -1,0 +1,24 @@
+{
+  "name": "angularjs-match-directive",
+  "version": "1.0.0",
+  "homepage": "https://github.com/anthony2727/angularjs-match-directive",
+  "authors": [
+    "Anthony <anthonyrodriguez.itt@gmail.com>"
+  ],
+  "description": "Custom match directive for Angularjs to validate whether two fields are equal or not. Useful for password matching, usernames, and more",
+  "main": "./match.js",
+  "keywords": [
+    "angularjs",
+    "match",
+    "directive",
+    "input"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
