@@ -8,7 +8,7 @@ A custom match directive to validate whether two fields are equal or not. Useful
 ##INSTALLATION
 
 If you'd like to use bower, you can install armatch using:
-> bower install --save armatch
+> bower install armatch --save
 
 Then, include the downloaded dependency in your main app file.
 ```html
